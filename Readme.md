@@ -174,8 +174,6 @@ public class ProductController {
 ## 👨‍💻 Auteur & Contact
 
 **Développé par [MonkilaTECHNOLOGIE](https://github.com/MonkilaTECHNOLOGIE)**  
-📧 Contact : [monkilatech@gmail.com](mailto:contact@monkila-tech.com)
+📧 Contact : [contact@monkila-tech.com](mailto:contact@monkila-tech.com)
 
----
 
-⭐ **Merci d’étoiler le projet si vous le trouvez utile !**
