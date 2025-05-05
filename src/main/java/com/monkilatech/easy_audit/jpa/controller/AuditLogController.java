@@ -1,10 +1,10 @@
-package com.monkilatech.easy_audit.controller;
+package com.monkilatech.easy_audit.jpa.controller;
 
 
 import org.springframework.web.bind.annotation.*;
 
-import com.monkilatech.easy_audit.model.AuditEvent;
-import com.monkilatech.easy_audit.repository.AuditLogRepository;
+import com.monkilatech.easy_audit.jpa.model.AuditJpaEntity;
+import com.monkilatech.easy_audit.jpa.repository.AuditLogRepository;
 
 import java.util.List;
 
@@ -19,7 +19,7 @@ public class AuditLogController {
     }
 
     @GetMapping
-    public List<AuditEvent> getAllLogs() {
+    public List<AuditJpaEntity> getAllLogs() {
         return repository.findAll();
     }
 }

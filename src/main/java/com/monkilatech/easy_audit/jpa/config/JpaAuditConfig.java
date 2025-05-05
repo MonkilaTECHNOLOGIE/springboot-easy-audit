@@ -1,7 +1,7 @@
-package com.monkilatech.easy_audit.config;
+package com.monkilatech.easy_audit.jpa.config;
 
-import com.monkilatech.easy_audit.service.AuditLogger;
-import com.monkilatech.easy_audit.service.JpaAuditLogger;
+import com.monkilatech.easy_audit.jpa.service.AuditLogger;
+import com.monkilatech.easy_audit.jpa.service.JpaAuditLogger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

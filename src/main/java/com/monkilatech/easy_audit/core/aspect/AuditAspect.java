@@ -1,4 +1,4 @@
-package com.monkilatech.easy_audit.aspect;
+package com.monkilatech.easy_audit.core.aspect;
 
 
 import org.aspectj.lang.JoinPoint;
@@ -7,9 +7,9 @@ import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.monkilatech.easy_audit.annotation.Auditable;
-import com.monkilatech.easy_audit.model.AuditEvent;
-import com.monkilatech.easy_audit.service.AuditLogger;
+import com.monkilatech.easy_audit.core.annotation.Auditable;
+import com.monkilatech.easy_audit.core.model.AuditEvent;
+import com.monkilatech.easy_audit.core.service.AuditLogger;
 
 import java.time.LocalDateTime;
 

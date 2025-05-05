@@ -1,4 +1,4 @@
-package com.monkilatech.easy_audit.annotation;
+package com.monkilatech.easy_audit.core.annotation;
 
 
 import java.lang.annotation.*;

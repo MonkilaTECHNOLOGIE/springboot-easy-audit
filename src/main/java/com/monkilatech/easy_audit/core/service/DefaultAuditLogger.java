@@ -1,7 +1,8 @@
-package com.monkilatech.easy_audit.service;
+package com.monkilatech.easy_audit.core.service;
 
-import com.monkilatech.easy_audit.model.AuditEvent;
 import org.springframework.stereotype.Service;
+
+import com.monkilatech.easy_audit.core.model.AuditEvent;
 
 @Service
 public class DefaultAuditLogger implements AuditLogger {

@@ -1,4 +1,4 @@
-package com.monkilatech.easy_audit.model;
+package com.monkilatech.easy_audit.jpa.model;
 
 import java.time.LocalDateTime;
 import java.util.Map;
@@ -16,7 +16,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "audit_logs")
-public class AuditEvent {
+public class AuditJpaEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

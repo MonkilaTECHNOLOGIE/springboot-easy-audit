@@ -1,8 +1,9 @@
-package com.monkilatech.easy_audit.service;
+package com.monkilatech.easy_audit.jpa.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.monkilatech.easy_audit.model.AuditEvent;
-import com.monkilatech.easy_audit.repository.AuditLogRepository;
+import com.monkilatech.easy_audit.jpa.model.AuditJpaEntity;
+import com.monkilatech.easy_audit.jpa.repository.AuditLogRepository;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -14,9 +15,9 @@ public class JpaAuditLogger implements AuditLogger {
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
-    public void log(AuditEvent event) {
+    public void log(AuditJpaEntity event) {
         try {
-            AuditEvent log = new AuditEvent();
+            AuditJpaEntity log = new AuditJpaEntity();
             log.setEntity(event.getEntity());
             log.setAction(event.getAction());
             log.setUsername(event.getUsername());
