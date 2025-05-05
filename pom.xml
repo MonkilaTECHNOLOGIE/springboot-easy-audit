@@ -24,12 +24,25 @@
 
 	<name>easy-audit</name>
 	<description>Provide a plug-and-play solution for automatic auditing of user actions in Spring Boot applications (CRUD, logins, state changes, etc.), with minimal configuration.</description>
-	<url/>
+	<url>https://github.com/MonkilaTECHNOLOGIE/springboot-easy-audit</url>
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 	<licenses>
-		<license/>
+		<license>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
+		</license>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+			<id>JoeM1990</id>
+			<name>Joe Monkila</name>
+			<email>jnkiwa25@gmail.com</email>
+		</developer>
 	</developers>
 	<scm>
 		<connection/>
