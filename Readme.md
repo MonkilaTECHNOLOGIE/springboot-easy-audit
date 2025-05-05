@@ -40,7 +40,7 @@
 </dependency>
 ```
 
-> 🔁 Remplacez `1.0.0` par la dernière version publiée sur [JitPack](https://jitpack.io/#MonkilaTECHNOLOGIE/easy-audit).
+> 🔁 Remplacez `1.0.0` par la dernière version publiée sur [JitPack](https://jitpack.io/#MonkilaTECHNOLOGIE/springboot-easy-audit).
 
 ---
 
