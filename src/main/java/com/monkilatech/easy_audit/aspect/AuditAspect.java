@@ -1,13 +1,15 @@
-package com.easyaudit.core.aspect;
+package com.monkilatech.easy_audit.aspect;
 
-import com.easyaudit.easy_audit.annotation.Auditable;
-import com.easyaudit.easy_audit.model.AuditEvent;
-import com.easyaudit.easy_audit.service.AuditLogger;
+
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import com.monkilatech.easy_audit.annotation.Auditable;
+import com.monkilatech.easy_audit.model.AuditEvent;
+import com.monkilatech.easy_audit.service.AuditLogger;
 
 import java.time.LocalDateTime;
 

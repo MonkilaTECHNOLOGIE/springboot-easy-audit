@@ -12,7 +12,7 @@
 	<artifactId>easy-audit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<packaging>pom</packaging>
+	<!-- <packaging>pom</packaging>
 
     <modules>
         <module>easy-audit-core</module>
@@ -20,7 +20,7 @@
         <module>easy-audit-security</module>
         <module>easy-audit-rest</module>
         <module>easy-audit-samples</module>
-    </modules>
+    </modules> -->
 
 	<name>easy-audit</name>
 	<description>Provide a plug-and-play solution for automatic auditing of user actions in Spring Boot applications (CRUD, logins, state changes, etc.), with minimal configuration.</description>

@@ -1,6 +1,6 @@
-package com.easyaudit.easy_audit.service;
+package com.monkilatech.easy_audit.service;
 
-import com.easyaudit.easy_audit.model.AuditEvent;
+import com.monkilatech.easy_audit.model.AuditEvent;
 import org.springframework.stereotype.Service;
 
 @Service
